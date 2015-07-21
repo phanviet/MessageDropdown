@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.3):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.3)
+  - FBSnapshotTestCase/Core (2.0.3)
+  - FBSnapshotTestCase/SwiftSupport (2.0.3):
+    - FBSnapshotTestCase/Core
+  - MessageDropdown (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MessageDropdown (from `../`)
+
+EXTERNAL SOURCES:
+  MessageDropdown:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: d0eeca6bf87958e088b254396ae66873f971cfb1
+  MessageDropdown: 24532bbda97d4951f064f7734d51b9e5ac3c7958
+
+COCOAPODS: 0.38.0
