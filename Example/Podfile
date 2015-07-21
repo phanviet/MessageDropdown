@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MessageDropdown_Example', :exclusive => true do
+  pod "MessageDropdown", :path => "../"
+end
+
+target 'MessageDropdown_Tests', :exclusive => true do
+  pod "MessageDropdown", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
