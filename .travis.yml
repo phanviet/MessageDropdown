@@ -4,6 +4,7 @@
 os:
   - osx
 language: swift
+sudo: required
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
