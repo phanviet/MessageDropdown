@@ -22,7 +22,7 @@ pod "MessageDropdown"
 
 ## Author
 
-Viet Phan, viet.phanhong@asnet.com.vn
+Viet Phan, vietphxfce@gmail.com
 
 ## License
 

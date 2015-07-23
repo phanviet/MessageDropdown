@@ -10,18 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "MessageDropdown"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MessageDropdown."
+  s.summary          = "MessageDropdown is a lightweight Swift simple and beautiful dropdown message"
   s.description      = <<-DESC
-                       An optional longer description of MessageDropdown
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       MessageDropdown is a lightweight Swift simple and beautiful dropdown message. It's
+                       support 5 message types: Default, Info, Success, Warning, Danger
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MessageDropdown"
+  s.homepage         = "https://github.com/phanviet/MessageDropdown"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Viet Phan" => "viet.phanhong@asnet.com.vn" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MessageDropdown.git", :tag => s.version.to_s }
+  s.author           = { "Viet Phan" => "vietphxfce@gmail.com" }
+  s.source           = { :git => "https://github.com/phanviet/MessageDropdown.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
