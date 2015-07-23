@@ -1,9 +1,8 @@
 # references:
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
-
+os: osx
 language: swift
-osx_image: xcode6.4
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
