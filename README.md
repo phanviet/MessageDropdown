@@ -1,6 +1,6 @@
 # MessageDropdown
 
-[![CI Status](http://img.shields.io/travis/Viet Phan/MessageDropdown.svg?style=flat)](https://travis-ci.org/Viet Phan/MessageDropdown)
+[![CI Status](http://img.shields.io/travis/Viet Phan/MessageDropdown.svg?style=flat)](https://travis-ci.org/phanviet/MessageDropdown)
 [![Version](https://img.shields.io/cocoapods/v/MessageDropdown.svg?style=flat)](http://cocoapods.org/pods/MessageDropdown)
 [![License](https://img.shields.io/cocoapods/l/MessageDropdown.svg?style=flat)](http://cocoapods.org/pods/MessageDropdown)
 [![Platform](https://img.shields.io/cocoapods/p/MessageDropdown.svg?style=flat)](http://cocoapods.org/pods/MessageDropdown)
