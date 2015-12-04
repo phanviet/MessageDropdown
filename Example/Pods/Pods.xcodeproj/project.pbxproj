@@ -7,452 +7,282 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1366A5733D6D9B67CC0D9C625327BDB1 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBCE64A0CF371CF98CBFA5CD67BECE8E /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1613C1B76B4E4784BDE7E15260CFCDB9 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = F10659E7FD847DDE66E98994C8F27B53 /* FBSnapshotTestCase.m */; };
-		17914B922B59396168CA46E5B357293E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DBC8EB781C89CD56FF15E8568D3F28 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19FBCF517046CE63EC3D1381EA7691EA /* MessageDropdown.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 025C980672AB38CBC95111B482F03EA9 /* MessageDropdown.bundle */; };
-		2305E602DD790408C601A87718BFDEA4 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E79D56FEAE49BB637DA636532C63BB0 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24D5408DFFD6184627C4AE1E537FDF09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F9A8FEEA15285E46EC721B9E0367C4 /* Foundation.framework */; };
-		3C915140D97FEF7FF2C5B43F0761B9E9 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB43FC5CFDD5BA1EB7960BB071277090 /* FBSnapshotTestCase-dummy.m */; };
-		40CF6134803DD12E9E4F8DE39A9B434D /* MessageDropdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3A1CD2B20AB753B4BB7A8A4AC531D4 /* MessageDropdown-dummy.m */; };
-		4A237FB5C71533141B92A94B091C11D2 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D837F41AFD313D52C937726D5A49F40 /* FBSnapshotTestController.m */; };
-		4A785D31D8808CA8EA6022BC2BFCD020 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB3C164B44D39FA9A2C246B654D933D /* XCTest.framework */; };
-		597AF8134BF3BE46454984C6080AFCC6 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 374DD4CFA060106D88F83564ABCE1122 /* UIImage+Diff.m */; };
-		74FFEF3276D0511466CB9595B9DA93FE /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B84C978207B2218865B5A8F0CE0B5DC /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85935BD9027E949E13BDE6E3F81BA76D /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BAB46D3C3301CA7C4F58DE7B722B8B3 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9348D2FFD6F3C8577D11413AE787C3D2 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 690553DF7E78577F2B1DF0684D71FD06 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B2D8E25AE322EDE2479584B6CD8741B /* Pods-MessageDropdown_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E78C469F3061B1D85AF97F67CB909239 /* Pods-MessageDropdown_Tests-dummy.m */; };
-		A5346B6E6170E61977A5CD3EA1386E35 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A063EB67254FD530F3D9385CDC9AC2E /* UIImage+Snapshot.m */; };
-		A546A18240B66B84F752C77478DBCE8F /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 545A6D6FC485F10F3BC14357B1B9DE18 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6AD75588FF09DD3AC0901E683B6FDB9 /* Pods-MessageDropdown_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B34038C575AAF5DABDA1E26D402C94DC /* Pods-MessageDropdown_Example-dummy.m */; };
-		A86CE3DB5F709A4A69E84DA0F65900A0 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B878447E7A52880D7B54E3A9CDC92CD /* FBSnapshotTestCasePlatform.m */; };
-		B12DA562C25978D07E614EFAC9D1FADF /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD898BACAF5795EBF4EF09B667F60EF /* UIImage+Compare.m */; };
-		C433968F764510BE7CC827CE83CBB55A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F9A8FEEA15285E46EC721B9E0367C4 /* Foundation.framework */; };
-		C9BCB93CD9E2FD179A776551AAE61B16 /* MessageDropdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10786C7292AD2A955437754A6ABBAEA0 /* MessageDropdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D017C58F952D216ED57E0750D829F92A /* Pods-MessageDropdown_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD834191A2ABF6709C131EC6A8D7C92B /* Pods-MessageDropdown_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2BAF8672948704B1663057C54E81E6 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A481B2BA2BACB403B2D719F7ACC1AA /* SwiftSupport.swift */; };
-		DFBB5BD0320F6ADE0310B9EE163E0A9D /* Pods-MessageDropdown_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34699E08E29F3DED2F8F0F84216ED39B /* Pods-MessageDropdown_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F157EAF38BDD4941EEBCE410EFAD6528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F9A8FEEA15285E46EC721B9E0367C4 /* Foundation.framework */; };
-		F4942A114BD585A55F65FC6F9DE3FF05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42F9A8FEEA15285E46EC721B9E0367C4 /* Foundation.framework */; };
-		F8947EC3DCD14CA4CC1FE91CF5F3929F /* MessageDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B22F4A0FCB8292BA69CD543054B46DB /* MessageDropdown.swift */; };
+		47A62689DE92FEEFDF52DA8F9C1FCA9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		4BFE0C6C4306C97838FA8EB986FC38BC /* Pods-MessageDropdown_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B46CDC075F3CD888807A6E4BC73D60 /* Pods-MessageDropdown_Tests-dummy.m */; };
+		6219BB0B9EE51B4A78725EABD4B82CBF /* MessageDropdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 327368DAF6794CE09FA103353CB46C1B /* MessageDropdown-dummy.m */; };
+		8036BFFE15031EB8A4D608292A82B3F0 /* MessageDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B518BBACD87EC1FA9D6510402F781 /* MessageDropdown.swift */; };
+		804AC0F5D25F335DEB89F87F5701E648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		85F814E35B74EAE3D2CA3FC045491C15 /* Pods-MessageDropdown_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C98D729A7801960A6ADB0A6CCF8E1718 /* Pods-MessageDropdown_Example-dummy.m */; };
+		923604726B63DE8D144DADE724F1D48E /* MessageDropdown.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA3CC7322A5766802DA0FCD11B20DE72 /* MessageDropdown.bundle */; };
+		AAD54557C7027AA0C1260DEC0DB9F86A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B028AE50244268A40FE744D5B87F199F /* Pods-MessageDropdown_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE0997E66DF6B429D3F5310AB2414D3 /* Pods-MessageDropdown_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA482D3B0E21B540A8A904B901639751 /* Pods-MessageDropdown_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0B9A319932EBCF12E971C38148A4F9 /* Pods-MessageDropdown_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEAC82647B43049CAE16ADD5456F6B8B /* MessageDropdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49EA3716A02B8B3820E502EC6839C175 /* MessageDropdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		431F1C3A714CE8D48B986E3A729816CD /* PBXContainerItemProxy */ = {
+		0D2D778CA69EA2CE4A1E3FAD4ECE9D1A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 386F1527946494F647176A09A37DC68E;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		57EE67BE682FA3BBFD1DD8C2B783668A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 97DD08E7CAF6FC8952A0652ADDA7E1B9;
+			remoteGlobalIDString = 474289FE0415A5B51461482C66A8F097;
 			remoteInfo = MessageDropdown;
 		};
-		9453772D307BB1C54B724BA5A9FC3623 /* PBXContainerItemProxy */ = {
+		392E097CF1AF5D02680997C239019269 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 97DD08E7CAF6FC8952A0652ADDA7E1B9;
+			remoteGlobalIDString = 474289FE0415A5B51461482C66A8F097;
 			remoteInfo = MessageDropdown;
 		};
-		F2F6DD1149785907830EA149DD18C1D2 /* PBXContainerItemProxy */ = {
+		7449F071D38DFD2E05B8F41EED0ADE94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 60FEEA0A4B411EB08ADB446A723BDE25;
+			remoteGlobalIDString = 01705A37FD5DF8EF056D062E684EF89D;
 			remoteInfo = "MessageDropdown-MessageDropdown";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		025C980672AB38CBC95111B482F03EA9 /* MessageDropdown.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageDropdown.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A063EB67254FD530F3D9385CDC9AC2E /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		10786C7292AD2A955437754A6ABBAEA0 /* MessageDropdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessageDropdown-umbrella.h"; sourceTree = "<group>"; };
-		11DBC8EB781C89CD56FF15E8568D3F28 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		182BCABBE42BC1C5784BEF1B0DA18BD3 /* MessageDropdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MessageDropdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BAB46D3C3301CA7C4F58DE7B722B8B3 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		217EE35D54FF89308CFCD2C981F686E9 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		23D88D1F4694BB1A0E67496E05E505FC /* Pods-MessageDropdown_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageDropdown_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2830A20B437E9D8C427889EAB90C123B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B1225F947E2C4809C79FAC7C14E1D75 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		2B878447E7A52880D7B54E3A9CDC92CD /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		2C2DCEE0FF821356AE0BF014CC6333C9 /* Pods-MessageDropdown_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessageDropdown_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2D42AA9BD62EF021861B69F19304FB2E /* Pods-MessageDropdown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageDropdown_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		34699E08E29F3DED2F8F0F84216ED39B /* Pods-MessageDropdown_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MessageDropdown_Example-umbrella.h"; sourceTree = "<group>"; };
-		374DD4CFA060106D88F83564ABCE1122 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		42F9A8FEEA15285E46EC721B9E0367C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		459767ED5CDAFCE45046BCCB3B0CF05C /* Pods-MessageDropdown_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessageDropdown_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4BD898BACAF5795EBF4EF09B667F60EF /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		545A6D6FC485F10F3BC14357B1B9DE18 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		54B1DA9612AC355C45ABEBF317A67EF3 /* FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
-		5CB3C164B44D39FA9A2C246B654D933D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5E79D56FEAE49BB637DA636532C63BB0 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		690553DF7E78577F2B1DF0684D71FD06 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		6B22F4A0FCB8292BA69CD543054B46DB /* MessageDropdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MessageDropdown.swift; sourceTree = "<group>"; };
-		6B84C978207B2218865B5A8F0CE0B5DC /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		6D837F41AFD313D52C937726D5A49F40 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		779E5E8210CDB0731AF894A5B0368235 /* Pods-MessageDropdown_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageDropdown_Example-frameworks.sh"; sourceTree = "<group>"; };
-		77E4D134D737B7483A5426CEFE663091 /* MessageDropdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MessageDropdown.xcconfig; sourceTree = "<group>"; };
-		7B7FB819093078993112F7E6E639E6F3 /* Pods-MessageDropdown_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageDropdown_Example-resources.sh"; sourceTree = "<group>"; };
-		834F3CAC59E9726AE3224F704E00DBC4 /* Pods-MessageDropdown_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MessageDropdown_Example.modulemap"; sourceTree = "<group>"; };
-		84244E31160F36EA39E24189C88B01F1 /* Pods_MessageDropdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageDropdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A1A9A19B449F145CA2919816AD4B989 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8CB9E50A99C0FDBE40BB0EE7EBD428DC /* Pods-MessageDropdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageDropdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		938F81E64FB1C5BC61994D4BB348C178 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		9567D8F484B885872AD673D5E00D2336 /* Pods-MessageDropdown_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageDropdown_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A0192BC1BE669B577A2EDE3885AF742F /* Pods-MessageDropdown_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MessageDropdown_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A76464601381A60BA7631D492015E6C7 /* Pods-MessageDropdown_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageDropdown_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B34038C575AAF5DABDA1E26D402C94DC /* Pods-MessageDropdown_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MessageDropdown_Example-dummy.m"; sourceTree = "<group>"; };
-		B56D6E91751CD03623C80896AB74F240 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5A6E67021E6CC8B0B5D4164A318D3A4 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7A481B2BA2BACB403B2D719F7ACC1AA /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		BB43FC5CFDD5BA1EB7960BB071277090 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		BD3A1CD2B20AB753B4BB7A8A4AC531D4 /* MessageDropdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MessageDropdown-dummy.m"; sourceTree = "<group>"; };
-		BE3FF4A2778449F8B03F7E58CC128286 /* MessageDropdown-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MessageDropdown-Private.xcconfig"; sourceTree = "<group>"; };
-		BEA68475C160628D3830C20A1A3397E5 /* Pods_MessageDropdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageDropdown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C88113A79685B4EFEE7BAD12896829F7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CBCE64A0CF371CF98CBFA5CD67BECE8E /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		CE25FF591FD07A37E244D30764AF53A4 /* Pods-MessageDropdown_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MessageDropdown_Tests.modulemap"; sourceTree = "<group>"; };
-		CE637FA2475F06D699E19AEB12060121 /* MessageDropdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MessageDropdown.modulemap; sourceTree = "<group>"; };
-		D4DC1B918F967709E88154EB30C60E50 /* MessageDropdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessageDropdown-prefix.pch"; sourceTree = "<group>"; };
-		DBC5AEB8A10379FFC65AE4139018B6FC /* Pods-MessageDropdown_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageDropdown_Tests-resources.sh"; sourceTree = "<group>"; };
-		DD834191A2ABF6709C131EC6A8D7C92B /* Pods-MessageDropdown_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MessageDropdown_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E51BAE92E98215667EC302F92A247274 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E78C469F3061B1D85AF97F67CB909239 /* Pods-MessageDropdown_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MessageDropdown_Tests-dummy.m"; sourceTree = "<group>"; };
-		F10659E7FD847DDE66E98994C8F27B53 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		F1468B61E2D2AC7E8F00A83117DAA0F9 /* Pods-MessageDropdown_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MessageDropdown_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03A453E58BCEF35712010D1E35C05171 /* Pods-MessageDropdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageDropdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F5DC70F2EB274F30F6C77397B40FCE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE0997E66DF6B429D3F5310AB2414D3 /* Pods-MessageDropdown_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MessageDropdown_Tests-umbrella.h"; sourceTree = "<group>"; };
+		327368DAF6794CE09FA103353CB46C1B /* MessageDropdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MessageDropdown-dummy.m"; sourceTree = "<group>"; };
+		343DCCB2E198929A30B0F5BFDAC97C78 /* MessageDropdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MessageDropdown.xcconfig; sourceTree = "<group>"; };
+		3531CCDCDEB10F13B2151BEA95B1135C /* Pods-MessageDropdown_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MessageDropdown_Example.modulemap"; sourceTree = "<group>"; };
+		36FEDA65B92F0F2C49101DC37340665D /* Pods-MessageDropdown_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageDropdown_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3999D0561E73847EED886E3BA3800884 /* Pods-MessageDropdown_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageDropdown_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3E4E10A331BBA9C09FA48FC28D83BB46 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		428036E34C73E1C3BFCCECDA92A99FE0 /* MessageDropdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MessageDropdown.modulemap; sourceTree = "<group>"; };
+		49EA3716A02B8B3820E502EC6839C175 /* MessageDropdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessageDropdown-umbrella.h"; sourceTree = "<group>"; };
+		4FD7562463FAE830C933C320F9369052 /* Pods-MessageDropdown_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageDropdown_Tests-resources.sh"; sourceTree = "<group>"; };
+		509F1012A080A18DBD118E47CF85BF51 /* MessageDropdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MessageDropdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		597F2585E51531C2F88F96EE726DE9F3 /* Pods-MessageDropdown_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MessageDropdown_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DCC72D66EE4664148D32EF1FD1FD868 /* Pods-MessageDropdown_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MessageDropdown_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		68E5E87866757932E60B77BA1C3CACFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D0B9A319932EBCF12E971C38148A4F9 /* Pods-MessageDropdown_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MessageDropdown_Example-umbrella.h"; sourceTree = "<group>"; };
+		7F696A444461FB2BEA6E5F487A70311A /* MessageDropdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MessageDropdown-prefix.pch"; sourceTree = "<group>"; };
+		8BF870E94086D48577B43CB898277A5B /* Pods-MessageDropdown_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessageDropdown_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		997F4DCFE301D646784470DF89CD6556 /* Pods_MessageDropdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageDropdown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A780F327CAEBCFD9ABFA47CA36B00C6 /* Pods_MessageDropdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageDropdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54512DDA9A997BA9A267B237686E1CC /* Pods-MessageDropdown_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MessageDropdown_Tests.modulemap"; sourceTree = "<group>"; };
+		B20B518BBACD87EC1FA9D6510402F781 /* MessageDropdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MessageDropdown.swift; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C98D729A7801960A6ADB0A6CCF8E1718 /* Pods-MessageDropdown_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MessageDropdown_Example-dummy.m"; sourceTree = "<group>"; };
+		CFC79C4288119D7F5F5300C32FC285CB /* Pods-MessageDropdown_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageDropdown_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E0B46CDC075F3CD888807A6E4BC73D60 /* Pods-MessageDropdown_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MessageDropdown_Tests-dummy.m"; sourceTree = "<group>"; };
+		E7B56F84F9295B64C7F62E06F98F64CC /* Pods-MessageDropdown_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessageDropdown_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E979BE8EF6067EC78AF8612F2F658EFD /* Pods-MessageDropdown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageDropdown_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F4D0D3CDDEBF3BEBFE35100D64C8B13E /* Pods-MessageDropdown_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageDropdown_Example-resources.sh"; sourceTree = "<group>"; };
+		F6EDDC6DEE60F9429EFE7B6961FCA5C9 /* Pods-MessageDropdown_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MessageDropdown_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FA3CC7322A5766802DA0FCD11B20DE72 /* MessageDropdown.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageDropdown.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		160C43243E48DDD5918C17224EAF2CD6 /* Frameworks */ = {
+		287C683EAC56CEF742FC4CB081810474 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4942A114BD585A55F65FC6F9DE3FF05 /* Foundation.framework in Frameworks */,
+				47A62689DE92FEEFDF52DA8F9C1FCA9E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DFD0E2CAD742E3C7B4C9CD42CA1D81D /* Frameworks */ = {
+		9E0D404AF8451158851180AE36D8F640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804AC0F5D25F335DEB89F87F5701E648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B052F11B2D497202AC46741F82BDD84F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3EA943305E6A83A99FD652B22DDE00C7 /* Frameworks */ = {
+		C1AB3793AD3579D424EE3BD0AD74110C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C433968F764510BE7CC827CE83CBB55A /* Foundation.framework in Frameworks */,
-				4A785D31D8808CA8EA6022BC2BFCD020 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		456E8FB5BE295749F5236120B94261C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F157EAF38BDD4941EEBCE410EFAD6528 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F31018C04D6E8A4D8ADA80BD394AA41F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24D5408DFFD6184627C4AE1E537FDF09 /* Foundation.framework in Frameworks */,
+				AAD54557C7027AA0C1260DEC0DB9F86A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0720760E6FAA87218C034E98CCD3509B /* Development Pods */ = {
+		17472154BB7844C7F530E3E01F68718C /* MessageDropdown */ = {
 			isa = PBXGroup;
 			children = (
-				D125933F1E50F2CB30F378FF6921C01C /* MessageDropdown */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		0C6A69CC83350425721FB1FE03FF1449 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				64A91A4EF1F61C823A89850113E318F0 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		21FF83D38BE2E1D5499360B06000D8F3 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				42F9A8FEEA15285E46EC721B9E0367C4 /* Foundation.framework */,
-				5CB3C164B44D39FA9A2C246B654D933D /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		48A8B9D76DA94C93D4B3017841F750DC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E51BAE92E98215667EC302F92A247274 /* Info.plist */,
-				CE637FA2475F06D699E19AEB12060121 /* MessageDropdown.modulemap */,
-				77E4D134D737B7483A5426CEFE663091 /* MessageDropdown.xcconfig */,
-				BE3FF4A2778449F8B03F7E58CC128286 /* MessageDropdown-Private.xcconfig */,
-				BD3A1CD2B20AB753B4BB7A8A4AC531D4 /* MessageDropdown-dummy.m */,
-				D4DC1B918F967709E88154EB30C60E50 /* MessageDropdown-prefix.pch */,
-				10786C7292AD2A955437754A6ABBAEA0 /* MessageDropdown-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MessageDropdown";
-			sourceTree = "<group>";
-		};
-		5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				21FF83D38BE2E1D5499360B06000D8F3 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		64A91A4EF1F61C823A89850113E318F0 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6B22F4A0FCB8292BA69CD543054B46DB /* MessageDropdown.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		6D81B0FAA8204F9FBB13B28E98EF4CB5 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				E30B60BAF75280424835629D9826D502 /* Core */,
-				957494196D76749E43871AAF106B6FF1 /* Support Files */,
-				9F4A98DBF2255F60AF333FC31B823F25 /* SwiftSupport */,
-			);
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				C88113A79685B4EFEE7BAD12896829F7 /* Podfile */,
-				0720760E6FAA87218C034E98CCD3509B /* Development Pods */,
-				5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */,
-				FCC6F965540745142F6675EF7C9E0E2D /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				D871C749CBB672E76A502DD5E90F9842 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8594512052532A02AFBD619420D27B8C /* Pods-MessageDropdown_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				2830A20B437E9D8C427889EAB90C123B /* Info.plist */,
-				CE25FF591FD07A37E244D30764AF53A4 /* Pods-MessageDropdown_Tests.modulemap */,
-				F1468B61E2D2AC7E8F00A83117DAA0F9 /* Pods-MessageDropdown_Tests-acknowledgements.markdown */,
-				2C2DCEE0FF821356AE0BF014CC6333C9 /* Pods-MessageDropdown_Tests-acknowledgements.plist */,
-				E78C469F3061B1D85AF97F67CB909239 /* Pods-MessageDropdown_Tests-dummy.m */,
-				A76464601381A60BA7631D492015E6C7 /* Pods-MessageDropdown_Tests-frameworks.sh */,
-				DBC5AEB8A10379FFC65AE4139018B6FC /* Pods-MessageDropdown_Tests-resources.sh */,
-				DD834191A2ABF6709C131EC6A8D7C92B /* Pods-MessageDropdown_Tests-umbrella.h */,
-				8CB9E50A99C0FDBE40BB0EE7EBD428DC /* Pods-MessageDropdown_Tests.debug.xcconfig */,
-				2D42AA9BD62EF021861B69F19304FB2E /* Pods-MessageDropdown_Tests.release.xcconfig */,
-			);
-			name = "Pods-MessageDropdown_Tests";
-			path = "Target Support Files/Pods-MessageDropdown_Tests";
-			sourceTree = "<group>";
-		};
-		957494196D76749E43871AAF106B6FF1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				217EE35D54FF89308CFCD2C981F686E9 /* FBSnapshotTestCase.modulemap */,
-				2B1225F947E2C4809C79FAC7C14E1D75 /* FBSnapshotTestCase.xcconfig */,
-				54B1DA9612AC355C45ABEBF317A67EF3 /* FBSnapshotTestCase-Private.xcconfig */,
-				BB43FC5CFDD5BA1EB7960BB071277090 /* FBSnapshotTestCase-dummy.m */,
-				938F81E64FB1C5BC61994D4BB348C178 /* FBSnapshotTestCase-prefix.pch */,
-				CBCE64A0CF371CF98CBFA5CD67BECE8E /* FBSnapshotTestCase-umbrella.h */,
-				8A1A9A19B449F145CA2919816AD4B989 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		9F4A98DBF2255F60AF333FC31B823F25 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				B7A481B2BA2BACB403B2D719F7ACC1AA /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B5A6E67021E6CC8B0B5D4164A318D3A4 /* FBSnapshotTestCase.framework */,
-				025C980672AB38CBC95111B482F03EA9 /* MessageDropdown.bundle */,
-				182BCABBE42BC1C5784BEF1B0DA18BD3 /* MessageDropdown.framework */,
-				84244E31160F36EA39E24189C88B01F1 /* Pods_MessageDropdown_Example.framework */,
-				BEA68475C160628D3830C20A1A3397E5 /* Pods_MessageDropdown_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D125933F1E50F2CB30F378FF6921C01C /* MessageDropdown */ = {
-			isa = PBXGroup;
-			children = (
-				0C6A69CC83350425721FB1FE03FF1449 /* Pod */,
-				48A8B9D76DA94C93D4B3017841F750DC /* Support Files */,
+				84F5601E7426B3B18095519F9B2BA9DA /* Pod */,
+				85979E10D5C9754D2B9521BE75DDDE82 /* Support Files */,
 			);
 			name = MessageDropdown;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		D43403D9D4D2B8EDC2EC2F1F748F2E09 /* Pods-MessageDropdown_Example */ = {
+		2FB6F3F09B217DCE578E48DF75CB6C21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B56D6E91751CD03623C80896AB74F240 /* Info.plist */,
-				834F3CAC59E9726AE3224F704E00DBC4 /* Pods-MessageDropdown_Example.modulemap */,
-				A0192BC1BE669B577A2EDE3885AF742F /* Pods-MessageDropdown_Example-acknowledgements.markdown */,
-				459767ED5CDAFCE45046BCCB3B0CF05C /* Pods-MessageDropdown_Example-acknowledgements.plist */,
-				B34038C575AAF5DABDA1E26D402C94DC /* Pods-MessageDropdown_Example-dummy.m */,
-				779E5E8210CDB0731AF894A5B0368235 /* Pods-MessageDropdown_Example-frameworks.sh */,
-				7B7FB819093078993112F7E6E639E6F3 /* Pods-MessageDropdown_Example-resources.sh */,
-				34699E08E29F3DED2F8F0F84216ED39B /* Pods-MessageDropdown_Example-umbrella.h */,
-				23D88D1F4694BB1A0E67496E05E505FC /* Pods-MessageDropdown_Example.debug.xcconfig */,
-				9567D8F484B885872AD673D5E00D2336 /* Pods-MessageDropdown_Example.release.xcconfig */,
+				FA3CC7322A5766802DA0FCD11B20DE72 /* MessageDropdown.bundle */,
+				509F1012A080A18DBD118E47CF85BF51 /* MessageDropdown.framework */,
+				9A780F327CAEBCFD9ABFA47CA36B00C6 /* Pods_MessageDropdown_Example.framework */,
+				997F4DCFE301D646784470DF89CD6556 /* Pods_MessageDropdown_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		387A3774A1DAB613A8C39BFC646A6242 /* Pods-MessageDropdown_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E10A331BBA9C09FA48FC28D83BB46 /* Info.plist */,
+				A54512DDA9A997BA9A267B237686E1CC /* Pods-MessageDropdown_Tests.modulemap */,
+				597F2585E51531C2F88F96EE726DE9F3 /* Pods-MessageDropdown_Tests-acknowledgements.markdown */,
+				8BF870E94086D48577B43CB898277A5B /* Pods-MessageDropdown_Tests-acknowledgements.plist */,
+				E0B46CDC075F3CD888807A6E4BC73D60 /* Pods-MessageDropdown_Tests-dummy.m */,
+				F6EDDC6DEE60F9429EFE7B6961FCA5C9 /* Pods-MessageDropdown_Tests-frameworks.sh */,
+				4FD7562463FAE830C933C320F9369052 /* Pods-MessageDropdown_Tests-resources.sh */,
+				2EE0997E66DF6B429D3F5310AB2414D3 /* Pods-MessageDropdown_Tests-umbrella.h */,
+				03A453E58BCEF35712010D1E35C05171 /* Pods-MessageDropdown_Tests.debug.xcconfig */,
+				E979BE8EF6067EC78AF8612F2F658EFD /* Pods-MessageDropdown_Tests.release.xcconfig */,
+			);
+			name = "Pods-MessageDropdown_Tests";
+			path = "Target Support Files/Pods-MessageDropdown_Tests";
+			sourceTree = "<group>";
+		};
+		5433831608B066E70B501EF3093A5E0F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17472154BB7844C7F530E3E01F68718C /* MessageDropdown */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6744EFB136959FF447406CAA6402C9D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B20B518BBACD87EC1FA9D6510402F781 /* MessageDropdown.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				5433831608B066E70B501EF3093A5E0F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2FB6F3F09B217DCE578E48DF75CB6C21 /* Products */,
+				AD12AD39D7DEFD48DBFCE327AB13597E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84F5601E7426B3B18095519F9B2BA9DA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6744EFB136959FF447406CAA6402C9D5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		85979E10D5C9754D2B9521BE75DDDE82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F5DC70F2EB274F30F6C77397B40FCE2 /* Info.plist */,
+				428036E34C73E1C3BFCCECDA92A99FE0 /* MessageDropdown.modulemap */,
+				343DCCB2E198929A30B0F5BFDAC97C78 /* MessageDropdown.xcconfig */,
+				327368DAF6794CE09FA103353CB46C1B /* MessageDropdown-dummy.m */,
+				7F696A444461FB2BEA6E5F487A70311A /* MessageDropdown-prefix.pch */,
+				49EA3716A02B8B3820E502EC6839C175 /* MessageDropdown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MessageDropdown";
+			sourceTree = "<group>";
+		};
+		AD12AD39D7DEFD48DBFCE327AB13597E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3CCF6F37E05E1813C112393B58ED978 /* Pods-MessageDropdown_Example */,
+				387A3774A1DAB613A8C39BFC646A6242 /* Pods-MessageDropdown_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D3CCF6F37E05E1813C112393B58ED978 /* Pods-MessageDropdown_Example */ = {
+			isa = PBXGroup;
+			children = (
+				68E5E87866757932E60B77BA1C3CACFD /* Info.plist */,
+				3531CCDCDEB10F13B2151BEA95B1135C /* Pods-MessageDropdown_Example.modulemap */,
+				5DCC72D66EE4664148D32EF1FD1FD868 /* Pods-MessageDropdown_Example-acknowledgements.markdown */,
+				E7B56F84F9295B64C7F62E06F98F64CC /* Pods-MessageDropdown_Example-acknowledgements.plist */,
+				C98D729A7801960A6ADB0A6CCF8E1718 /* Pods-MessageDropdown_Example-dummy.m */,
+				3999D0561E73847EED886E3BA3800884 /* Pods-MessageDropdown_Example-frameworks.sh */,
+				F4D0D3CDDEBF3BEBFE35100D64C8B13E /* Pods-MessageDropdown_Example-resources.sh */,
+				6D0B9A319932EBCF12E971C38148A4F9 /* Pods-MessageDropdown_Example-umbrella.h */,
+				36FEDA65B92F0F2C49101DC37340665D /* Pods-MessageDropdown_Example.debug.xcconfig */,
+				CFC79C4288119D7F5F5300C32FC285CB /* Pods-MessageDropdown_Example.release.xcconfig */,
 			);
 			name = "Pods-MessageDropdown_Example";
 			path = "Target Support Files/Pods-MessageDropdown_Example";
 			sourceTree = "<group>";
 		};
-		D871C749CBB672E76A502DD5E90F9842 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D43403D9D4D2B8EDC2EC2F1F748F2E09 /* Pods-MessageDropdown_Example */,
-				8594512052532A02AFBD619420D27B8C /* Pods-MessageDropdown_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E30B60BAF75280424835629D9826D502 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				6B84C978207B2218865B5A8F0CE0B5DC /* FBSnapshotTestCase.h */,
-				F10659E7FD847DDE66E98994C8F27B53 /* FBSnapshotTestCase.m */,
-				545A6D6FC485F10F3BC14357B1B9DE18 /* FBSnapshotTestCasePlatform.h */,
-				2B878447E7A52880D7B54E3A9CDC92CD /* FBSnapshotTestCasePlatform.m */,
-				5E79D56FEAE49BB637DA636532C63BB0 /* FBSnapshotTestController.h */,
-				6D837F41AFD313D52C937726D5A49F40 /* FBSnapshotTestController.m */,
-				1BAB46D3C3301CA7C4F58DE7B722B8B3 /* UIImage+Compare.h */,
-				4BD898BACAF5795EBF4EF09B667F60EF /* UIImage+Compare.m */,
-				690553DF7E78577F2B1DF0684D71FD06 /* UIImage+Diff.h */,
-				374DD4CFA060106D88F83564ABCE1122 /* UIImage+Diff.m */,
-				11DBC8EB781C89CD56FF15E8568D3F28 /* UIImage+Snapshot.h */,
-				0A063EB67254FD530F3D9385CDC9AC2E /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		FCC6F965540745142F6675EF7C9E0E2D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6D81B0FAA8204F9FBB13B28E98EF4CB5 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C4E3568915E54155FA0C42BA4B4BD3E /* Headers */ = {
+		5AEFC1638B5DAC4A92903E90698B529C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFBB5BD0320F6ADE0310B9EE163E0A9D /* Pods-MessageDropdown_Example-umbrella.h in Headers */,
+				CA482D3B0E21B540A8A904B901639751 /* Pods-MessageDropdown_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		204137E66BC9BDA8E85A091E4510EBD8 /* Headers */ = {
+		8FB92B05FF90157D1A0EFC5560DAF5A8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1366A5733D6D9B67CC0D9C625327BDB1 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				74FFEF3276D0511466CB9595B9DA93FE /* FBSnapshotTestCase.h in Headers */,
-				A546A18240B66B84F752C77478DBCE8F /* FBSnapshotTestCasePlatform.h in Headers */,
-				2305E602DD790408C601A87718BFDEA4 /* FBSnapshotTestController.h in Headers */,
-				85935BD9027E949E13BDE6E3F81BA76D /* UIImage+Compare.h in Headers */,
-				9348D2FFD6F3C8577D11413AE787C3D2 /* UIImage+Diff.h in Headers */,
-				17914B922B59396168CA46E5B357293E /* UIImage+Snapshot.h in Headers */,
+				B028AE50244268A40FE744D5B87F199F /* Pods-MessageDropdown_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53B60CB78CB0200736B237E5DE67EE80 /* Headers */ = {
+		D914625C1E03D9813F4EA5F1DE0936DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D017C58F952D216ED57E0750D829F92A /* Pods-MessageDropdown_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		72A993AAE3BD63886E0CCA049F0D9A30 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9BCB93CD9E2FD179A776551AAE61B16 /* MessageDropdown-umbrella.h in Headers */,
+				DEAC82647B43049CAE16ADD5456F6B8B /* MessageDropdown-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		386F1527946494F647176A09A37DC68E /* FBSnapshotTestCase */ = {
+		01705A37FD5DF8EF056D062E684EF89D /* MessageDropdown-MessageDropdown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D416CDA6507AEFB7B876910B359190E3 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = 37A2C5E3ABD49FBFE5B5D13786A0E3DC /* Build configuration list for PBXNativeTarget "MessageDropdown-MessageDropdown" */;
 			buildPhases = (
-				C5FB144A9EA896C4E459FB11C481CC29 /* Sources */,
-				3EA943305E6A83A99FD652B22DDE00C7 /* Frameworks */,
-				204137E66BC9BDA8E85A091E4510EBD8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FBSnapshotTestCase;
-			productName = FBSnapshotTestCase;
-			productReference = B5A6E67021E6CC8B0B5D4164A318D3A4 /* FBSnapshotTestCase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5C56619C9F8F3788EFFB847C88193B55 /* Pods-MessageDropdown_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F6E43747A0C9A4F5974204EB60DECA97 /* Build configuration list for PBXNativeTarget "Pods-MessageDropdown_Tests" */;
-			buildPhases = (
-				061CC14DD42269B8549C5390C0A6C046 /* Sources */,
-				160C43243E48DDD5918C17224EAF2CD6 /* Frameworks */,
-				53B60CB78CB0200736B237E5DE67EE80 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7BAD2D0755AEA2A0BDB6460074760CCF /* PBXTargetDependency */,
-				17B7A8FCE1332FBA03B86EB99EF58CC2 /* PBXTargetDependency */,
-			);
-			name = "Pods-MessageDropdown_Tests";
-			productName = "Pods-MessageDropdown_Tests";
-			productReference = BEA68475C160628D3830C20A1A3397E5 /* Pods_MessageDropdown_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		60FEEA0A4B411EB08ADB446A723BDE25 /* MessageDropdown-MessageDropdown */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC9265D27EFF915AC54DF7F481509BE5 /* Build configuration list for PBXNativeTarget "MessageDropdown-MessageDropdown" */;
-			buildPhases = (
-				1D147A11E4DDBCBE8B62716AE55FB2E0 /* Sources */,
-				1DFD0E2CAD742E3C7B4C9CD42CA1D81D /* Frameworks */,
-				BDE6662AFA0F09687046EC85A6742BD1 /* Resources */,
+				9DD1036D26C713377F64C7E3D078A55D /* Sources */,
+				B052F11B2D497202AC46741F82BDD84F /* Frameworks */,
+				770F290A0919E79336FF66840AB79289 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -460,44 +290,62 @@
 			);
 			name = "MessageDropdown-MessageDropdown";
 			productName = "MessageDropdown-MessageDropdown";
-			productReference = 025C980672AB38CBC95111B482F03EA9 /* MessageDropdown.bundle */;
+			productReference = FA3CC7322A5766802DA0FCD11B20DE72 /* MessageDropdown.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		912E88B858526085D08E8D78913059D5 /* Pods-MessageDropdown_Example */ = {
+		474289FE0415A5B51461482C66A8F097 /* MessageDropdown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0689337F77ADD70809E8DC5F838EDCD1 /* Build configuration list for PBXNativeTarget "Pods-MessageDropdown_Example" */;
+			buildConfigurationList = FF1AF3C87E71A57C023D06588E13E314 /* Build configuration list for PBXNativeTarget "MessageDropdown" */;
 			buildPhases = (
-				432E8B6212E92241EC6C6175D3B28907 /* Sources */,
-				456E8FB5BE295749F5236120B94261C0 /* Frameworks */,
-				0C4E3568915E54155FA0C42BA4B4BD3E /* Headers */,
+				0CA76F3E4CB98EFE9018E0D572D03751 /* Sources */,
+				C1AB3793AD3579D424EE3BD0AD74110C /* Frameworks */,
+				AB9FBF161D9C3ADB51758265E2A8C189 /* Resources */,
+				D914625C1E03D9813F4EA5F1DE0936DD /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FEA807C33180F2584D326BC6EF0460E5 /* PBXTargetDependency */,
-			);
-			name = "Pods-MessageDropdown_Example";
-			productName = "Pods-MessageDropdown_Example";
-			productReference = 84244E31160F36EA39E24189C88B01F1 /* Pods_MessageDropdown_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		97DD08E7CAF6FC8952A0652ADDA7E1B9 /* MessageDropdown */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA93EE64CEF0AE8A4ECE0581D708CD79 /* Build configuration list for PBXNativeTarget "MessageDropdown" */;
-			buildPhases = (
-				DA20D04338985A0D2FBC52CAC55D5D7C /* Sources */,
-				F31018C04D6E8A4D8ADA80BD394AA41F /* Frameworks */,
-				BDC64A12AFF6DC45A84D4136687E56F4 /* Resources */,
-				72A993AAE3BD63886E0CCA049F0D9A30 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CB4C2B47D13B30BB7FDA03337B7809FA /* PBXTargetDependency */,
+				5E209AB79F45F205D0902FB3129AACC9 /* PBXTargetDependency */,
 			);
 			name = MessageDropdown;
 			productName = MessageDropdown;
-			productReference = 182BCABBE42BC1C5784BEF1B0DA18BD3 /* MessageDropdown.framework */;
+			productReference = 509F1012A080A18DBD118E47CF85BF51 /* MessageDropdown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7FA8170C944FB0AC03F11E1B3942F90E /* Pods-MessageDropdown_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CAD92D5F00D13337BFC0521F949539 /* Build configuration list for PBXNativeTarget "Pods-MessageDropdown_Example" */;
+			buildPhases = (
+				09140E332356E8E19D74496CB03523AB /* Sources */,
+				287C683EAC56CEF742FC4CB081810474 /* Frameworks */,
+				5AEFC1638B5DAC4A92903E90698B529C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B611156425773564646837E54E35614 /* PBXTargetDependency */,
+			);
+			name = "Pods-MessageDropdown_Example";
+			productName = "Pods-MessageDropdown_Example";
+			productReference = 9A780F327CAEBCFD9ABFA47CA36B00C6 /* Pods_MessageDropdown_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D10B76145CD6F01F48912ABDE6B8F5C7 /* Pods-MessageDropdown_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF97EEDF423FA2EAB609B517A625C5F3 /* Build configuration list for PBXNativeTarget "Pods-MessageDropdown_Tests" */;
+			buildPhases = (
+				2C4EB14391F9780BEC53B536985A13B6 /* Sources */,
+				9E0D404AF8451158851180AE36D8F640 /* Frameworks */,
+				8FB92B05FF90157D1A0EFC5560DAF5A8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5579F79EB8E98F4514427DCF744B74A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-MessageDropdown_Tests";
+			productName = "Pods-MessageDropdown_Tests";
+			productReference = 997F4DCFE301D646784470DF89CD6556 /* Pods_MessageDropdown_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -517,144 +365,94 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = 2FB6F3F09B217DCE578E48DF75CB6C21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				386F1527946494F647176A09A37DC68E /* FBSnapshotTestCase */,
-				97DD08E7CAF6FC8952A0652ADDA7E1B9 /* MessageDropdown */,
-				60FEEA0A4B411EB08ADB446A723BDE25 /* MessageDropdown-MessageDropdown */,
-				912E88B858526085D08E8D78913059D5 /* Pods-MessageDropdown_Example */,
-				5C56619C9F8F3788EFFB847C88193B55 /* Pods-MessageDropdown_Tests */,
+				474289FE0415A5B51461482C66A8F097 /* MessageDropdown */,
+				01705A37FD5DF8EF056D062E684EF89D /* MessageDropdown-MessageDropdown */,
+				7FA8170C944FB0AC03F11E1B3942F90E /* Pods-MessageDropdown_Example */,
+				D10B76145CD6F01F48912ABDE6B8F5C7 /* Pods-MessageDropdown_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BDC64A12AFF6DC45A84D4136687E56F4 /* Resources */ = {
+		770F290A0919E79336FF66840AB79289 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19FBCF517046CE63EC3D1381EA7691EA /* MessageDropdown.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDE6662AFA0F09687046EC85A6742BD1 /* Resources */ = {
+		AB9FBF161D9C3ADB51758265E2A8C189 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923604726B63DE8D144DADE724F1D48E /* MessageDropdown.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		061CC14DD42269B8549C5390C0A6C046 /* Sources */ = {
+		09140E332356E8E19D74496CB03523AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B2D8E25AE322EDE2479584B6CD8741B /* Pods-MessageDropdown_Tests-dummy.m in Sources */,
+				85F814E35B74EAE3D2CA3FC045491C15 /* Pods-MessageDropdown_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D147A11E4DDBCBE8B62716AE55FB2E0 /* Sources */ = {
+		0CA76F3E4CB98EFE9018E0D572D03751 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6219BB0B9EE51B4A78725EABD4B82CBF /* MessageDropdown-dummy.m in Sources */,
+				8036BFFE15031EB8A4D608292A82B3F0 /* MessageDropdown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		432E8B6212E92241EC6C6175D3B28907 /* Sources */ = {
+		2C4EB14391F9780BEC53B536985A13B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6AD75588FF09DD3AC0901E683B6FDB9 /* Pods-MessageDropdown_Example-dummy.m in Sources */,
+				4BFE0C6C4306C97838FA8EB986FC38BC /* Pods-MessageDropdown_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5FB144A9EA896C4E459FB11C481CC29 /* Sources */ = {
+		9DD1036D26C713377F64C7E3D078A55D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C915140D97FEF7FF2C5B43F0761B9E9 /* FBSnapshotTestCase-dummy.m in Sources */,
-				1613C1B76B4E4784BDE7E15260CFCDB9 /* FBSnapshotTestCase.m in Sources */,
-				A86CE3DB5F709A4A69E84DA0F65900A0 /* FBSnapshotTestCasePlatform.m in Sources */,
-				4A237FB5C71533141B92A94B091C11D2 /* FBSnapshotTestController.m in Sources */,
-				DD2BAF8672948704B1663057C54E81E6 /* SwiftSupport.swift in Sources */,
-				B12DA562C25978D07E614EFAC9D1FADF /* UIImage+Compare.m in Sources */,
-				597AF8134BF3BE46454984C6080AFCC6 /* UIImage+Diff.m in Sources */,
-				A5346B6E6170E61977A5CD3EA1386E35 /* UIImage+Snapshot.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA20D04338985A0D2FBC52CAC55D5D7C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				40CF6134803DD12E9E4F8DE39A9B434D /* MessageDropdown-dummy.m in Sources */,
-				F8947EC3DCD14CA4CC1FE91CF5F3929F /* MessageDropdown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		17B7A8FCE1332FBA03B86EB99EF58CC2 /* PBXTargetDependency */ = {
+		5579F79EB8E98F4514427DCF744B74A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MessageDropdown;
-			target = 97DD08E7CAF6FC8952A0652ADDA7E1B9 /* MessageDropdown */;
-			targetProxy = 57EE67BE682FA3BBFD1DD8C2B783668A /* PBXContainerItemProxy */;
+			target = 474289FE0415A5B51461482C66A8F097 /* MessageDropdown */;
+			targetProxy = 0D2D778CA69EA2CE4A1E3FAD4ECE9D1A /* PBXContainerItemProxy */;
 		};
-		7BAD2D0755AEA2A0BDB6460074760CCF /* PBXTargetDependency */ = {
+		5B611156425773564646837E54E35614 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 386F1527946494F647176A09A37DC68E /* FBSnapshotTestCase */;
-			targetProxy = 431F1C3A714CE8D48B986E3A729816CD /* PBXContainerItemProxy */;
+			name = MessageDropdown;
+			target = 474289FE0415A5B51461482C66A8F097 /* MessageDropdown */;
+			targetProxy = 392E097CF1AF5D02680997C239019269 /* PBXContainerItemProxy */;
 		};
-		CB4C2B47D13B30BB7FDA03337B7809FA /* PBXTargetDependency */ = {
+		5E209AB79F45F205D0902FB3129AACC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MessageDropdown-MessageDropdown";
-			target = 60FEEA0A4B411EB08ADB446A723BDE25 /* MessageDropdown-MessageDropdown */;
-			targetProxy = F2F6DD1149785907830EA149DD18C1D2 /* PBXContainerItemProxy */;
-		};
-		FEA807C33180F2584D326BC6EF0460E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MessageDropdown;
-			target = 97DD08E7CAF6FC8952A0652ADDA7E1B9 /* MessageDropdown */;
-			targetProxy = 9453772D307BB1C54B724BA5A9FC3623 /* PBXContainerItemProxy */;
+			target = 01705A37FD5DF8EF056D062E684EF89D /* MessageDropdown-MessageDropdown */;
+			targetProxy = 7449F071D38DFD2E05B8F41EED0ADE94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		143DDDA37E1D8EAA06B6F0345BB6F0C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54B1DA9612AC355C45ABEBF317A67EF3 /* FBSnapshotTestCase-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2E2FE3061BBF0178B73470F3A8AA31DF /* Release */ = {
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -688,9 +486,70 @@
 			};
 			name = Release;
 		};
-		38680282BFDBB08A89DBF439BBE03193 /* Debug */ = {
+		15E15BAEA050672AD9309C69F56B7282 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE3FF4A2778449F8B03F7E58CC128286 /* MessageDropdown-Private.xcconfig */;
+			baseConfigurationReference = CFC79C4288119D7F5F5300C32FC285CB /* Pods-MessageDropdown_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MessageDropdown_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MessageDropdown_Example/Pods-MessageDropdown_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MessageDropdown_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F45760722145BD4FE23BE350018F39C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36FEDA65B92F0F2C49101DC37340665D /* Pods-MessageDropdown_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MessageDropdown_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MessageDropdown_Example/Pods-MessageDropdown_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MessageDropdown_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41EEBC9A783C61BC071CFA27A5F3ABCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343DCCB2E198929A30B0F5BFDAC97C78 /* MessageDropdown.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = MessageDropdown;
@@ -698,65 +557,9 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
-		};
-		65DDBD40A88A5B4EB0FDB035A02E12D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D42AA9BD62EF021861B69F19304FB2E /* Pods-MessageDropdown_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MessageDropdown_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MessageDropdown_Tests/Pods-MessageDropdown_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MessageDropdown_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Release;
 		};
-		75C6E5D2C0AC23886440579BD2750DF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54B1DA9612AC355C45ABEBF317A67EF3 /* FBSnapshotTestCase-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8BD0950CC7213622BB48FEAFE5931E57 /* Debug */ = {
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -795,51 +598,9 @@
 			};
 			name = Debug;
 		};
-		8FF5B3A9B42AAC7A5BFBECCD1F7014C3 /* Debug */ = {
+		84E2694494C559E4CA4F3BC3F9583FB9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23D88D1F4694BB1A0E67496E05E505FC /* Pods-MessageDropdown_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MessageDropdown_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MessageDropdown_Example/Pods-MessageDropdown_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MessageDropdown_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D94D486B578C45A1EC5CAE1657A68EA9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE3FF4A2778449F8B03F7E58CC128286 /* MessageDropdown-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = MessageDropdown;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		E9B427A9C7C93D499804DAF679CAEDBA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE3FF4A2778449F8B03F7E58CC128286 /* MessageDropdown-Private.xcconfig */;
+			baseConfigurationReference = 343DCCB2E198929A30B0F5BFDAC97C78 /* MessageDropdown.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -864,37 +625,9 @@
 			};
 			name = Release;
 		};
-		E9DC30F31BF10C1A3D7A461A9BF47F77 /* Debug */ = {
+		995EDA491F9110DD8D6FA8275013DA1B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE3FF4A2778449F8B03F7E58CC128286 /* MessageDropdown-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MessageDropdown/MessageDropdown-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MessageDropdown/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MessageDropdown/MessageDropdown.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MessageDropdown;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F382C142444325C29A3A2C0754AC2716 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CB9E50A99C0FDBE40BB0EE7EBD428DC /* Pods-MessageDropdown_Tests.debug.xcconfig */;
+			baseConfigurationReference = 03A453E58BCEF35712010D1E35C05171 /* Pods-MessageDropdown_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -907,6 +640,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MessageDropdown_Tests/Pods-MessageDropdown_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
@@ -922,9 +656,9 @@
 			};
 			name = Debug;
 		};
-		F81BC639516741C14BDA7EB1DD3D6C07 /* Release */ = {
+		B0CB8074E0142D20307E80AC8BF24CEE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9567D8F484B885872AD673D5E00D2336 /* Pods-MessageDropdown_Example.release.xcconfig */;
+			baseConfigurationReference = 343DCCB2E198929A30B0F5BFDAC97C78 /* MessageDropdown.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -933,16 +667,45 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MessageDropdown_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MessageDropdown/MessageDropdown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MessageDropdown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-MessageDropdown_Example/Pods-MessageDropdown_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/MessageDropdown/MessageDropdown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MessageDropdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA2424FB29F3F84C86EE01C27F3CFDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E979BE8EF6067EC78AF8612F2F658EFD /* Pods-MessageDropdown_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MessageDropdown_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MessageDropdown_Tests/Pods-MessageDropdown_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_MessageDropdown_Example;
+				PRODUCT_NAME = Pods_MessageDropdown_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -951,59 +714,62 @@
 			};
 			name = Release;
 		};
+		DFDFA073F510E0C7B68455DB98FA47B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343DCCB2E198929A30B0F5BFDAC97C78 /* MessageDropdown.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MessageDropdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0689337F77ADD70809E8DC5F838EDCD1 /* Build configuration list for PBXNativeTarget "Pods-MessageDropdown_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8FF5B3A9B42AAC7A5BFBECCD1F7014C3 /* Debug */,
-				F81BC639516741C14BDA7EB1DD3D6C07 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BD0950CC7213622BB48FEAFE5931E57 /* Debug */,
-				2E2FE3061BBF0178B73470F3A8AA31DF /* Release */,
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC9265D27EFF915AC54DF7F481509BE5 /* Build configuration list for PBXNativeTarget "MessageDropdown-MessageDropdown" */ = {
+		37A2C5E3ABD49FBFE5B5D13786A0E3DC /* Build configuration list for PBXNativeTarget "MessageDropdown-MessageDropdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38680282BFDBB08A89DBF439BBE03193 /* Debug */,
-				D94D486B578C45A1EC5CAE1657A68EA9 /* Release */,
+				DFDFA073F510E0C7B68455DB98FA47B2 /* Debug */,
+				41EEBC9A783C61BC071CFA27A5F3ABCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA93EE64CEF0AE8A4ECE0581D708CD79 /* Build configuration list for PBXNativeTarget "MessageDropdown" */ = {
+		A6CAD92D5F00D13337BFC0521F949539 /* Build configuration list for PBXNativeTarget "Pods-MessageDropdown_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E9DC30F31BF10C1A3D7A461A9BF47F77 /* Debug */,
-				E9B427A9C7C93D499804DAF679CAEDBA /* Release */,
+				3F45760722145BD4FE23BE350018F39C /* Debug */,
+				15E15BAEA050672AD9309C69F56B7282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D416CDA6507AEFB7B876910B359190E3 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+		CF97EEDF423FA2EAB609B517A625C5F3 /* Build configuration list for PBXNativeTarget "Pods-MessageDropdown_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				143DDDA37E1D8EAA06B6F0345BB6F0C2 /* Debug */,
-				75C6E5D2C0AC23886440579BD2750DF5 /* Release */,
+				995EDA491F9110DD8D6FA8275013DA1B /* Debug */,
+				CA2424FB29F3F84C86EE01C27F3CFDB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6E43747A0C9A4F5974204EB60DECA97 /* Build configuration list for PBXNativeTarget "Pods-MessageDropdown_Tests" */ = {
+		FF1AF3C87E71A57C023D06588E13E314 /* Build configuration list for PBXNativeTarget "MessageDropdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F382C142444325C29A3A2C0754AC2716 /* Debug */,
-				65DDBD40A88A5B4EB0FDB035A02E12D3 /* Release */,
+				B0CB8074E0142D20307E80AC8BF24CEE /* Debug */,
+				84E2694494C559E4CA4F3BC3F9583FB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

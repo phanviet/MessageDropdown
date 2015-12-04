@@ -1,15 +1,15 @@
 {
   "name": "MessageDropdown",
   "version": "0.1.0",
-  "summary": "A short description of MessageDropdown.",
-  "description": "An optional longer description of MessageDropdown\n\n* Markdown format.\n* Don't worry about the indent, we strip it!",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MessageDropdown",
+  "summary": "MessageDropdown is a lightweight Swift simple and beautiful dropdown message",
+  "description": "MessageDropdown is a lightweight Swift simple and beautiful dropdown message. It's\nsupport 5 message types: Default, Info, Success, Warning, Danger",
+  "homepage": "https://github.com/phanviet/MessageDropdown",
   "license": "MIT",
   "authors": {
-    "Viet Phan": "viet.phanhong@asnet.com.vn"
+    "Viet Phan": "vietphxfce@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MessageDropdown.git",
+    "git": "https://github.com/phanviet/MessageDropdown.git",
     "tag": "0.1.0"
   },
   "platforms": {

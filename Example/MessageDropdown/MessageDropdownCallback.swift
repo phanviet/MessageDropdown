@@ -16,18 +16,18 @@ class MessageDropdownCallback: NSObject {
 extension MessageDropdownCallback: MessageDropdownDelegate {
 
   func beforeMessageShow(messageDropdown: MessageDropdown) {
-    println("@ before message show")
+    print("@ before message show")
   }
   
   func afterMessageShow(messageDropdown: MessageDropdown) {
-    println("@ after message show")
+    print("@ after message show")
   }
   
   func beforeMessageHide(messageDropdown: MessageDropdown) {
-    println("@ before message hide")
+    print("@ before message hide")
   }
   
   func afterMessageHide(messageDropdown: MessageDropdown) {
-    println("@ after message hide")
+    print("@ after message hide")
   }
 }

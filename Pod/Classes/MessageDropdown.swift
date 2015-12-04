@@ -208,7 +208,7 @@ public class MessageDropdown: UIView {
       window.addSubview(self)
     }
     
-    setTranslatesAutoresizingMaskIntoConstraints(false)
+    translatesAutoresizingMaskIntoConstraints = false
     
     window.addConstraint(topConstraint)
     window.addConstraint(leadingConstraint)
@@ -240,7 +240,7 @@ public class MessageDropdown: UIView {
     self.addGestureRecognizer(tapRecognizer)
   }
 
-  required public init(coder aDecoder: NSCoder) {
+  required public init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
   }
   
@@ -259,9 +259,7 @@ public class MessageDropdown: UIView {
     instance.messageLabel.sizeToFit()
     instance.heightConstraint.constant = instance.messageLabel.frame.size.height + (instance.config.paddingTop + instance.config.paddingBottom)
     instance.topConstraint.constant = -instance.heightConstraint.constant
-    if instance.messageLabel.frame.origin.y == 0 {
-      instance.messageLabel.frame.origin.y = instance.topConstraint.constant + (instance.config.paddingTop)
-    }
+    instance.messageLabel.frame.origin.y = instance.config.paddingTop
     
     instance.layoutIfNeeded()
   }
@@ -301,44 +299,50 @@ extension MessageDropdown {
     for i in 0..<instance.delegates.count {
       instance.delegates[i].beforeMessageShow?(instance)
     }
-    UIView.animateWithDuration(instance.config.animationDuration,
-      delay: instance.config.animationDelay,
-      options: UIViewAnimationOptions.CurveEaseOut,
-      animations: { () -> Void in
-        self.instance.topConstraint.constant = 0.0
-        if self.instance.messageLabel.frame.origin.y < 0 {
-          self.instance.messageLabel.frame.origin.y = self.instance.config.paddingTop
-        }
-        self.instance.layoutIfNeeded()
-      },
-      completion: { (finished: Bool) -> Void in
-        if self.instance.config.isAutoDismiss! {
-          self.instance.scheduleUpTimer(self.instance.config.dismissTimer)
-        }
 
-        for i in 0..<self.instance.delegates.count {
-          self.instance.delegates[i].afterMessageShow?(self.instance)
+    dispatch_async(dispatch_get_main_queue()) {
+      UIView.animateWithDuration(instance.config.animationDuration,
+        delay: instance.config.animationDelay,
+        options: UIViewAnimationOptions.CurveEaseOut,
+        animations: { () -> Void in
+          self.instance.topConstraint.constant = 0.0
+          if self.instance.messageLabel.frame.origin.y < 0 {
+            self.instance.messageLabel.frame.origin.y = self.instance.config.paddingTop
+          }
+          self.instance.layoutIfNeeded()
+        },
+        completion: { (finished: Bool) -> Void in
+          if self.instance.config.isAutoDismiss! {
+            self.instance.scheduleUpTimer(self.instance.config.dismissTimer)
+          }
+
+          for i in 0..<self.instance.delegates.count {
+            self.instance.delegates[i].afterMessageShow?(self.instance)
+          }
         }
-      }
-    )
+      )
+    }
   }
   
   public class func hide() {
     for i in 0..<instance.delegates.count {
       instance.delegates[i].beforeMessageHide?(instance)
     }
-    UIView.animateWithDuration(instance.config.animationDuration,
-      delay: instance.config.animationDelay,
-      options: UIViewAnimationOptions.CurveEaseIn,
-      animations: { () -> Void in
-        self.instance.topConstraint.constant = -self.instance.heightConstraint.constant
-        self.instance.layoutIfNeeded()
-      }, completion: { (finished: Bool) -> Void in
-        for i in 0..<self.instance.delegates.count {
-          self.instance.delegates[i].afterMessageHide?(self.instance)
+    dispatch_async(dispatch_get_main_queue()) {
+      UIView.animateWithDuration(instance.config.animationDuration,
+        delay: instance.config.animationDelay,
+        options: UIViewAnimationOptions.CurveEaseIn,
+        animations: { () -> Void in
+          self.instance.topConstraint.constant = -self.instance.heightConstraint.constant
+          self.instance.layoutIfNeeded()
+        }, completion: { (finished: Bool) -> Void in
+          for i in 0..<self.instance.delegates.count {
+            self.instance.delegates[i].afterMessageHide?(self.instance)
+          }
         }
-      }
-    )
+      )
+    }
+    
   }
 }
 
@@ -399,7 +403,7 @@ class MessageDropdownConfig {
       textColor: UIColor.whiteColor()
     )
     
-    animationDuration = 0.25
+    animationDuration = 0.5
     animationDelay = 0
     
     dismissTimer = 3.0

@@ -7,6 +7,4 @@ end
 
 target 'MessageDropdown_Tests', :exclusive => true do
   pod "MessageDropdown", :path => "../"
-
-  pod 'FBSnapshotTestCase'
 end

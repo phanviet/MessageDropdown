@@ -14,8 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		A1F696FA5EE03C6B21B06854 /* Pods_MessageDropdown_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD17D18DE3F67FE84EDB06E7 /* Pods_MessageDropdown_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		D59EA6856148A14DE22009B5 /* Pods_MessageDropdown_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6134F29BA1FEAFBDF494A670 /* Pods_MessageDropdown_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A1F696FA5EE03C6B21B06854 /* Pods_MessageDropdown_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD17D18DE3F67FE84EDB06E7 /* Pods_MessageDropdown_Example.framework */; };
+		D59EA6856148A14DE22009B5 /* Pods_MessageDropdown_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6134F29BA1FEAFBDF494A670 /* Pods_MessageDropdown_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -212,6 +212,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
