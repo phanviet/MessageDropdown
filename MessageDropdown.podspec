@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "MessageDropdown"
-  s.version          = "0.1.1"
+  s.version          = "0.2.0"
   s.summary          = "MessageDropdown is a lightweight Swift simple and beautiful dropdown message"
   s.description      = <<-DESC
                        MessageDropdown is a lightweight Swift simple and beautiful dropdown message. It's
